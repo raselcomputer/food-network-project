@@ -47,6 +47,10 @@ p{
 .about-me-area{
     background-image: url(images/shapes/7.png);
 }
+.about-me-area img{
+    width: 50%;
+    margin-left: 150px;
+}
 h2{
     font-size: 40px;
     color: #575757;
@@ -105,4 +109,11 @@ h2{
 }
 .progress-item p{
     text-align: left;
+}
+footer{
+    background: #000;
+    padding: 30px;
+}
+footer p{
+    text-align: center;
 }
