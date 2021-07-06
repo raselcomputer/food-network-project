@@ -20,6 +20,34 @@ p{
     color: #828282;
     text-align: left;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.navbar .logo a{
+    color: #575757;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 50px 50px;
+    line-height: 60px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-right: 60px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #575757;;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .orange-color{
     color: #FA9249;
 }
@@ -42,7 +70,7 @@ p{
     padding: 10px 30px;
     background-image: linear-gradient(#FC964B, #FE492E);
     border-radius: 30px;
-    box-shadow: 5px 5px 20px #FC964B;
+    box-shadow: 2px 2px 20px #FC964B;
 }
 .about-me-area{
     background-image: url(images/shapes/7.png);
@@ -73,7 +101,7 @@ h2{
 }
 .recipies-box-item{
     width: 30%;
-    box-shadow: 10px 10px 30px gray;
+    box-shadow: 2px 2px 30px gray;
     border-radius: 20px;
     border: 1px solid white;
     padding: 10px;
@@ -97,7 +125,8 @@ h2{
 .progress-item{
     display: flex;
     width: 90%;
-    box-shadow: 10px 10px 30px gray;
+    padding: 30px 0;
+    box-shadow: 2px 2px 30px gray;
     border-radius: 20px;
     border: 1px solid white;
     justify-content: space-around;
