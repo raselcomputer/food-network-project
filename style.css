@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+section{
+    margin-bottom: 100px;
+}
 .flex-container{
     display: flex;
 }
@@ -82,4 +85,24 @@ h2{
 }
 #box-3{
     margin-right: 4%;
+}
+.our-progress{
+    width: 100%;
+    align-items: center;
+}
+.progress-item{
+    display: flex;
+    width: 90%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    border: 1px solid white;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4%;
+}
+.progress-item h2{
+    text-align: left;
+}
+.progress-item p{
+    text-align: left;
 }
