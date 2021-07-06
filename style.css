@@ -23,12 +23,13 @@ p{
     width: 90%;
 }
 .text-area{
-    padding: 7% 7%;
+    padding: 5% 7%;
 }
-
-.button{
+.button a{
     text-decoration: none;
     color: white;
+    margin-top: 30px;
+    margin-left: 40px;
     padding: 10px 30px;
     background-image: linear-gradient(#FC964B, #FE492E);
     border-radius: 30px;
