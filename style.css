@@ -24,6 +24,7 @@ p{
     display: flex;
     justify-content: space-between;
     padding: 20px 10px;
+    background-color: #f7ecdf;
 }
 .navbar .logo a{
     color: #575757;
@@ -135,9 +136,11 @@ h2{
 }
 .progress-item h2{
     text-align: left;
+    line-height: 20px;
 }
 .progress-item p{
     text-align: left;
+    line-height: 10px;
 }
 footer{
     background: #000;
