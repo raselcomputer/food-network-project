@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .flex-container{
     display: flex;
@@ -34,4 +35,20 @@ p{
     background-image: linear-gradient(#FC964B, #FE492E);
     border-radius: 30px;
     box-shadow: 5px 5px 20px #FC964B;
+}
+.about-me-area{
+    background-image: url(images/shapes/7.png);
+}
+#about-text-area h2{
+    font-size: 40px;
+    color: #575757;
+    text-align: center;
+}
+#about-text-area p{
+    padding: 0 40px;
+    text-align: justify;
+}
+#btn{
+    margin-left: 50px;
+    margin-top: 20px;
 }
