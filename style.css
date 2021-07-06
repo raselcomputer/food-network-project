@@ -9,8 +9,13 @@ h1{
     font-size: 50px;
     color: #575757;
 }
+h3{
+    font-size: 25px;
+    color: #575757;
+}
 p{
     color: #828282;
+    text-align: left;
 }
 .orange-color{
     color: #FA9249;
@@ -39,7 +44,7 @@ p{
 .about-me-area{
     background-image: url(images/shapes/7.png);
 }
-#about-text-area h2{
+h2{
     font-size: 40px;
     color: #575757;
     text-align: center;
@@ -51,4 +56,30 @@ p{
 #btn{
     margin-left: 50px;
     margin-top: 20px;
+}
+.food-recipies-area p{
+    text-align: center;
+}
+.flex-recipies-box{
+    display: flex;
+    width: 100%;
+}
+.recipies-box-item{
+    width: 30%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4%;
+}
+.recipies-box-item img{
+    width: 100%;
+}
+.recipies-box-item p{
+    text-align: justify;
+}
+#box-3{
+    margin-right: 4%;
 }
